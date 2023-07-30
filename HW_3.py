@@ -53,8 +53,6 @@ str_for_count = 'Пой же, пой. На проклятой гитаре '\
 
 mega_dict = {}
 
-max_len_word = len(max(str_for_count, key=len))
-
 for number, word in enumerate(str_for_count, start = 0):
         mega_dict[word] = str_for_count.count(word)
 
